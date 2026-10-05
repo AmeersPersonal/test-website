@@ -1,123 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ameer Tayeh portfolio showcasing project impact, execution, and outcomes." />
     <title>Ameer Tayeh | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <nav class="navbar container" aria-label="Main navigation">
-        <a class="brand" href="#home">Ameer Tayeh</a>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <label class="theme-switch" for="theme-toggle">
-              <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode" />
-              <span>Dark</span>
-            </label>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="home">
-      <section class="hero container">
-        <h1>Ameer Tayeh</h1>
-        <p class="headline">Computer Science Student at NYIT (May 2028) | AI Fellow &amp; Software Engineer</p>
-      </section>
-
-      <section id="about" class="section container">
-        <h2>About Me</h2>
-        <p>
-          I am an undergraduate CS student based in Brooklyn, NY. I specialize in building web applications,
-          working with AI integrations, and developing hardware/embedded systems.
-        </p>
-      </section>
-
-      <section id="experience" class="section container">
-        <h2>Experience</h2>
-        <div class="cards two-col">
-          <article class="card">
-            <h3>AI Fellow</h3>
-            <p class="meta">Handshake AI</p>
-            <p>
-              Focused on AI prompt training, dataset evaluation, and designing long-horizon task environments for AI
-              agents.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Student IT Support Technician</h3>
-            <p class="meta">NYIT</p>
-            <p>
-              Managed technical support tickets, walk-in requests, and client calls at the ITS Help Desk.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="projects" class="section container">
-        <h2>Projects</h2>
-        <div class="cards two-col">
-          <article class="card">
-            <h3>Transit Delay LLM Predictor</h3>
-            <p>
-              Constructed data ingestion pipelines for GTFS-Realtime feeds, stored in SQLite, and integrated the
-              Gemini API.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Better Apply</h3>
-            <p>
-              A web app built to streamline job applications and tailor resumes for specific position listings.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Transit For All</h3>
-            <p>
-              Co-developed at a hackathon using the MTA API to assist users in identifying accessible transit
-              stations.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Easy Verify</h3>
-            <p>
-              A Python application compiled with PyInstaller that registers a custom URI protocol handler on Windows.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="skills" class="section container">
-        <h2>Skills</h2>
-        <div class="cards two-col">
-          <article class="card">
-            <h3>Languages</h3>
-            <p>JavaScript, Python, C++, Java, HTML/CSS.</p>
-          </article>
-          <article class="card">
-            <h3>Tools &amp; Tech</h3>
-            <p>React, Vite, Tailwind CSS, Git, GitHub Actions, Raspberry Pi, Gemini API, SQLite.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="contact" class="section container">
-        <h2>Contact</h2>
-        <p class="contact-links">
-          <a href="https://github.com/AmeersPersonal" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <span aria-hidden="true">•</span>
-          <a href="mailto:ameertayeh@gmail.com">Email Me</a>
-        </p>
-      </section>
-    </main>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
