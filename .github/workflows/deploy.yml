@@ -2,7 +2,7 @@ name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
-    branches: ['main']
+    branches: ['main', 'copilot/design-code-portfolio-website']
   workflow_dispatch:
 
 permissions:
